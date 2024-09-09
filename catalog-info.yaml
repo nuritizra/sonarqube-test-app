@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sonarqube-test-app
+  description: test-app for testing sonarqube
+  tags:
+    - python
+  annotations:
+    sonarqube.org/project-key: 'backstage'
+spec:
+  type: service
+  lifecycle: production
+  owner: sharks
